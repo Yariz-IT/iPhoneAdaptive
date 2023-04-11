@@ -1,0 +1,30 @@
+.new {
+    padding: 90px 0 150px;
+}
+
+.new-title,
+.color-title {
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a5cbd8;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.new-info {
+    display: flex;
+    align-items: center;
+}
+
+.new-text p {
+    max-width: 560px;
+    margin: 0 0 30px;
+}
+
+.new-text b {
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+}

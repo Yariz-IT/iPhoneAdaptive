@@ -1,0 +1,57 @@
+.contacts-inner {
+    display: flex;
+    background-color: #a9cbd7;
+    color: white;
+    outline: none;
+}
+
+.contacts-form {
+    width: 100%;
+    padding: 140px 100px;
+    text-align: center;
+}
+
+.contacts-input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #abcdda;
+    outline: none;
+    outline-color: white;
+    color: white;
+}
+
+.contacts-input::placeholder {
+    font-size: 14px;
+    line-height: 18;
+    color: white;
+    opacity: .5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    outline-color: #abcdda;
+    color: white;
+}
+
+.contacts-form p {
+    opacity: 0.5;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contacts-form button {
+    border: none;
+    text-transform: uppercase;
+    color: #abcdda;
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contacts-form {
+    padding: 50px 30px;
+}

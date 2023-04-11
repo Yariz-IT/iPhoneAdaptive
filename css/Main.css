@@ -1,0 +1,88 @@
+    @import './color.css';
+    @import './contacts.css';
+    @import './footer.css';
+    @import './new.css';
+    @import './headline.css';
+    @import './menu.css';
+
+
+    
+    * {
+        font-family: 'Inter', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    h3 {
+        color: #0a335c;
+    }
+
+    p {
+        color: #0a335c;
+    }
+
+    .body {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+
+    .header {
+        background-color: #0a335c;
+        padding: 26px 0 32px;
+        color: #66CC99;
+        font-size: 24px;
+        line-height: 29px;
+
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+    .phone {
+        flex-grow: 1;
+        flex-basis: 0;
+        text-align: right;
+        line-height: 29px;
+        font-size: 24px;
+    }
+
+
+    .title {
+        text-transform: uppercase;
+        margin: 0 0 40px;
+        color: #a5cbd8;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 77px;
+    }
+
+
+    .images-new {
+        margin-left: 190px;
+    }
+
+
+    
+
+   
+ 

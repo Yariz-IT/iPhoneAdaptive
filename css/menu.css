@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.menu-item {
+    padding-right: 30px;
+}
+
+.menu-link {
+    border: 0;
+    background-color: #0a335c;
+    color: #66CC99;
+    cursor: pointer;
+}
+
+.menu-btn {
+    display: none;
+}

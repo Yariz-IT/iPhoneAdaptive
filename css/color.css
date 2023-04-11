@@ -1,0 +1,42 @@
+.color {
+    padding-bottom: 150px;
+}
+
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color-item img {
+    margin-bottom: 20px;
+}
+
+.color-item h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.color-item p {
+    margin: 0;
+}
+
+.color-title {
+    margin: 0px 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #a5cbd8;
+}
+
+.color-item,
+.color-item img {
+    width: 100%;
+}
+
+.color-item {
+    margin-bottom: 10px;
+}
